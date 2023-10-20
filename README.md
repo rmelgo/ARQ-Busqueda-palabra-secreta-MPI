@@ -25,7 +25,7 @@ Para poder compilar correctamente el programa, se deberá tener instalada una ve
 El proyecto cuenta con los siguientes ficheros:
 
 - Un fichero llamado ***mpi.c*** que contiene todo el código necesario para el correcto funcionamiento de la practica.
-- Un documento llamado ***TRABAJO_MPI.ppt*** que contiene una presentación en PowerPoint en la que se explican los aspectos más importantes del desarrollo del proyecto (estructura, parámetros, aspectos mas relevantes de la implementación) junto con unas ejecuciones de prueba y un análisis del resultado de dichas pruebas.
+- Un documento llamado ***TRABAJO_MPI.pptx*** que contiene una presentación en PowerPoint en la que se explican los aspectos más importantes del desarrollo del proyecto (estructura, parámetros, aspectos mas relevantes de la implementación) junto con unas ejecuciones de prueba y un análisis del resultado de dichas pruebas.
 
 # - Parámetros de ejecución
 
