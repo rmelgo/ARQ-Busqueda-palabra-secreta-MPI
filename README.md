@@ -1,4 +1,4 @@
-# ARQ-Busqueda-palabra-secreta-MPI
+# Búsqueda de una palabra secreta con programación paralela MPI
 
 ![Inicio](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/1eb7469c-9e5d-46d8-80bc-f58a93e2b035)
 
