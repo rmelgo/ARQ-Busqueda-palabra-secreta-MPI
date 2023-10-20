@@ -132,16 +132,38 @@ Para ello se debe introducir el siguiente comando:
 
 Tras ejecutar este comando, el programa se habra ejecutado correctamente, siempre y cuendo se hayan introducido los argumentos correspondientes.
 
-# - Ejemplo de ejecución
+# - Ejemplos de ejecución
 
-## Ejecución a velocidad media (10) y máximo de 4 procesos
+## Ejecución con 3 procesos, 1 comprobador, 1 generador y modo pista activado
 
-En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con un límite de 4 procesos y una velocidad de 10:    
+En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con 1 *proceso Comprobador*, 1 *proceso Generador* y el modo pista activado:    
 
-![Ejemplo ejecucion 1](https://github.com/rmelgo/SSOO-II-Programacion-multiproceso-cruce-semaforos/assets/145989723/a72bece7-157e-4224-93f6-48f9a7595866)
+![Ejemplo ejecucion 1](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/c1e8fc87-8866-4d18-815f-a1405affd83d)
+![Ejemplo ejecucion 2](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/c102fac6-abc1-4b7e-bb09-4973a4ce5703)
 
-## Ejecución a velocidad máxima y máximo de 49 procesos
+## Ejecución con 3 procesos, 1 comprobador, 1 generador y modo pista desactivado
 
-En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con un límite de 49 procesos y una velocidad de 0:    
+En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con 1 *proceso Comprobador*, 1 *proceso Generador* y el modo pista desactivado:    
 
-![Ejemplo ejecucion 2](https://github.com/rmelgo/SSOO-II-Programacion-multiproceso-cruce-semaforos/assets/145989723/cbe17750-07ad-44d2-91ac-cbf5288b5e08)
+![Ejemplo ejecucion 3](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/c6770f7c-f8fc-44a9-8eac-d06491666bb5)
+![Ejemplo ejecucion 4](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/1def15fd-024e-41cd-9cd0-64122aee47af)
+
+## Ejecución con 5 procesos, 2 comprobadores, 2 generadores y modo pista activado
+
+En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con 2 *procesos Comprobadores*, 2 *procesos Generadores* y el modo pista activado:   
+
+![Ejemplo ejecucion 5](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/f4c39c1c-7d2e-467b-a5f0-711b4dd0ab7f)
+![Ejemplo ejecucion 6](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/bc359dfe-bdec-4d88-b6a1-0bbb7a1db5d2)
+
+## Ejecución con 5 procesos, 2 comprobadores, 2 generadores y modo pista desactivado
+
+En la siguiente imagen, se muestra un ejemplo del uso y funcionamiento del programa con 2 *procesos Comprobadores*, 2 *procesos Generadores* y el modo pista desactivado:  
+
+![Ejemplo ejecucion 7](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/c5df936a-082d-4847-9746-8ecf2418d513)
+![Ejemplo ejecucion 8](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/6e442b4d-1ff3-4a12-a8a6-0115a28acacf)
+![Ejemplo ejecucion 9](https://github.com/rmelgo/ARQ-Busqueda-palabra-secreta-MPI/assets/145989723/7cc83a67-858b-467d-8d18-9c5bd0de2513)
+
+## Conclusiones 
+
+- El tiempo empleado en descubrir la palabra secreta disminuye a medida que se aumenta el numero de *procesos Comprobadores* y *procesos Generadores*.
+- El modo pista disminuye el tiempo empleado en descubrir la palabra secreta siempre y cuando haya mas de un *proceso Generador*.
